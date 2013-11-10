@@ -1,0 +1,29 @@
+		Homer Simpson is intelligent.
+
+		
+		
+		Homer Simpson is an idiot.
+
+1.	-- In command mode type 4w to move to intelligent
+	-- Then hit R replace 
+		and type in "an idiot" followed by spaces to remove extra words
+	
+		IF Homer Simpson is an idiot.
+
+2. 	-- Press "esc" 
+		then type ma for mark a
+	-- Press " 'a "
+		then 'i' insert mode "IF"
+
+		IF Homer Simpson is an idiotsavant.
+
+3. 	-- Press "esc"
+	-- Press " `a " to go to your mark
+	-- Press "i" insert savant
+
+		If Homer Simpson is an idiotsavant.
+
+4.	-- Press "esc"
+	-- Move crusor with h or l to F
+	-- Press "R" on F change to f
+

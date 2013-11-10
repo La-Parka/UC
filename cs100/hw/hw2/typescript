@@ -1,0 +1,406 @@
+Script started on Thu 17 Oct 2013 10:12:35 AM PDT
+~
+mtobo001@alpha-5 $ cd cs100/hw/hw2
+~/cs100/hw/hw2
+mtobo001@alpha-5 $ make all
+g++ -ggdb -o my_ls my_ls.cc
+~/cs100/hw/hw2
+mtobo001@alpha-5 $ make clean
+rm -rf *~ *.o bestMain betterMain main my_ls
+~/cs100/hw/hw2
+mtobo001@alpha-5 $ make all
+g++ -ggdb -o my_ls my_ls.cc
+g++ -ggdb -c -o Coins.o Coins.cc
+g++    -c -o main.o main.cc
+g++ -ggdb -o main Coins.o main.o
+g++    -c -o betterMain.o betterMain.cc
+g++ -ggdb -o betterMain Coins.o betterMain.o
+g++    -c -o bestMain.o bestMain.cc
+g++ -ggdb -o bestMain Coins.o bestMain.o
+~/cs100/hw/hw2
+mtobo001@alpha-5 $ touch main.cc 
+~/cs100/hw/hw2
+mtobo001@alpha-5 $ touch Coins.h
+~/cs100/hw/hw2
+mtobo001@alpha-5 $ make main
+g++ -ggdb -c -o Coins.o Coins.cc
+g++    -c -o main.o main.cc
+g++ -ggdb -o main Coins.o main.o
+~/cs100/hw/hw2
+mtobo001@alpha-5 $ main[K[K[Kake maintouch Coins.hmain.cc [1PCoins.h
+~/cs100/hw/hw2
+mtobo001@alpha-5 $ touch Coins.h[4Pmake main[K[K[K[K[Kbett bett[C[C[C[CerMaint[C[K
+g++ -ggdb -c -o Coins.o Coins.cc
+g++ -ggdb -o betterMain Coins.o betterMain.o
+~/cs100/hw/hw2
+mtobo001@alpha-5 $ make betterMain[2Ptouch Coins.h
+~/cs100/hw/hw2
+mtobo001@alpha-5 $ touch Coins.hmake betterMain[K[K[K[K[K[K[K[KstMain
+g++ -ggdb -c -o Coins.o Coins.cc
+g++ -ggdb -o bestMain Coins.o bestMain.o
+~/cs100/hw/hw2
+mtobo001@alpha-5 $ [H[2J~/cs100/hw/hw2
+mtobo001@alpha-5 $ ./main
+I started with 2660
+		Quarters: 100
+		Dimes: 10
+		Nickel: 10
+		Pennies: 10
+in my pocket
+
+I bough a candybar for 482 cents using 482
+		Quarters: 19
+		Dimes: 0
+		Nickel: 1
+		Pennies: 2
+
+I have 2178
+		Quarters: 81
+		Dimes: 10
+		Nickel: 9
+		Pennies: 8
+left in my pocket
+
+~/cs100/hw/hw2
+mtobo001@alpha-5 $ ./betterMain
+============================== Initial ==============================
+I have 193
+		Quarters: 5
+		Dimes: 3
+		Nickel: 6
+		Pennies: 8
+in my pocket
+
+And in my piggyBank 2050
+		Quarters: 50
+		Dimes: 50
+		Nickel: 50
+		Pennies: 50
+
+============================== Buying Chips  ==============================
+I bought a bag of chips for 68
+
+Now I have 125
+		Quarters: 3
+		Dimes: 2
+		Nickel: 5
+		Pennies: 5
+in my pocket
+
+============================== Transfer ==============================
+I deposited 237
+		Quarters: 9
+		Dimes: 1
+		Nickel: 0
+		Pennies: 2
+
+My pocket now contains 362
+		Quarters: 12
+		Dimes: 3
+		Nickel: 5
+		Pennies: 7
+
+============================== Vacuum ==============================
+While vacumming I found 130
+		Quarters: 2
+		Dimes: 3
+		Nickel: 7
+		Pennies: 15
+
+Now I have 492
+		Quarters: 14
+		Dimes: 6
+		Nickel: 12
+		Pennies: 22
+in my pocket
+
+~/cs100/hw/hw2
+mtobo001@alpha-5 $ ./bestMain
+============================== Welcome To The Bank ==============================
+	Deposit Change (d):
+	Extract Change (e):
+	Print Balance (p):
+	Quit (q):
+
+Choose One Of The Options: e p
+
+===== Printing Account Info =====
+Total: 410
+		Quarters: 10
+		Dimes: 10
+		Nickel: 10
+		Pennies: 10
+
+============================== Welcome To The Bank ==============================
+	Deposit Change (d):
+	Extract Change (e):
+	Print Balance (p):
+	Quit (q):
+
+Choose One Of The Options: e
+
+===== Extracting =====
+How Much Would You Like To Extract?: 420
+
+.: You Do Not Have Sufficient Funds :.
+
+============================== Welcome To The Bank ==============================
+	Deposit Change (d):
+	Extract Change (e):
+	Print Balance (p):
+	Quit (q):
+
+Choose One Of The Options: d
+
+===== Deposit =====
+How Many Quarters: 2
+How Many Dimes: 3
+How Many Nickels: 5
+How Many Pennies: 6
+
+============================== Welcome To The Bank ==============================
+	Deposit Change (d):
+	Extract Change (e):
+	Print Balance (p):
+	Quit (q):
+
+Choose One Of The Options: p
+
+===== Printing Account Info =====
+Total: 521
+		Quarters: 12
+		Dimes: 13
+		Nickel: 15
+		Pennies: 16
+
+============================== Welcome To The Bank ==============================
+	Deposit Change (d):
+	Extract Change (e):
+	Print Balance (p):
+	Quit (q):
+
+Choose One Of The Options: e
+
+===== Extracting =====
+How Much Would You Like To Extract?: 21
+
+.: Sussesful Extraction :.
+
+============================== Welcome To The Bank ==============================
+	Deposit Change (d):
+	Extract Change (e):
+	Print Balance (p):
+	Quit (q):
+
+Choose One Of The Options: p
+
+===== Printing Account Info =====
+Total: 500
+		Quarters: 12
+		Dimes: 11
+		Nickel: 15
+		Pennies: 15
+
+============================== Welcome To The Bank ==============================
+	Deposit Change (d):
+	Extract Change (e):
+	Print Balance (p):
+	Quit (q):
+
+Choose One Of The Options: q
+
+~/cs100/hw/hw2
+mtobo001@alpha-5 $ [H[2J~/cs100/hw/hw2
+mtobo001@alpha-5 $ ./my_ls .
+. contains: 
+	Makefile
+	Coins.h
+	Coins.cc
+	main.cc
+	HW2(1).pdf
+	bestMain.cc
+	betterMain.cc
+	my_ls.cc
+	my_ls
+	Coins.o
+	main.o
+	main
+	betterMain.o
+	betterMain
+	bestMain.o
+	bestMain
+	typescript
+	HW2.tar.tgz
+~/cs100/hw/hw2
+mtobo001@alpha-5 $ ./my_ls .[K
+. contains: 
+	Makefile
+	Coins.h
+	Coins.cc
+	main.cc
+	HW2(1).pdf
+	bestMain.cc
+	betterMain.cc
+	my_ls.cc
+	my_ls
+	Coins.o
+	main.o
+	main
+	betterMain.o
+	betterMain
+	bestMain.o
+	bestMain
+	typescript
+	HW2.tar.tgz
+~/cs100/hw/hw2
+mtobo001@alpha-5 $ ./my_ls ../ main.cc
+../ contains: 
+	hw1
+	hw2
+rwx------ 1 LINKS 1046 SIZE 1382029980 MOD DATE main.cc
+..//hw1 contains: 
+	stack.h
+	stack.cc
+	.new.swp
+	stack
+	rolodex.cc
+	typescript
+	sample.txt
+	rolodex
+	test
+	rolodex.h.gch
+	ppl.txt
+..//hw2 contains: 
+	Makefile
+	Coins.h
+	Coins.cc
+	main.cc
+	HW2(1).pdf
+	bestMain.cc
+	betterMain.cc
+	my_ls.cc
+	my_ls
+	Coins.o
+	main.o
+	main
+	betterMain.o
+	betterMain
+	bestMain.o
+	bestMain
+	typescript
+	HW2.tar.tgz
+~/cs100/hw/hw2
+mtobo001@alpha-5 $ ./my_ls ../ main.cc ../../labs/
+../ contains: 
+	hw1
+	hw2
+rwx------ 1 LINKS 1046 SIZE 1382029980 MOD DATE main.cc
+../../labs/ contains: 
+	2lab
+	3lab
+..//hw1 contains: 
+	stack.h
+	stack.cc
+	.new.swp
+	stack
+	rolodex.cc
+	typescript
+	sample.txt
+	rolodex
+	test
+	rolodex.h.gch
+	ppl.txt
+..//hw2 contains: 
+	Makefile
+	Coins.h
+	Coins.cc
+	main.cc
+	HW2(1).pdf
+	bestMain.cc
+	betterMain.cc
+	my_ls.cc
+	my_ls
+	Coins.o
+	main.o
+	main
+	betterMain.o
+	betterMain
+	bestMain.o
+	bestMain
+	typescript
+	HW2.tar.tgz
+../../labs//2lab contains: 
+	Lab2.pdf
+	Book.cc
+	stack.cc
+../../labs//3lab contains: 
+	LAB
+	main.cc
+	a.out
+	main1.cc
+	makefile.txt
+~/cs100/hw/hw2
+mtobo001@alpha-5 $ make clean
+rm -rf *~ *.o bestMain betterMain main my_ls
+~/cs100/hw/hw2
+mtobo001@alpha-5 $ cat Makefile 
+#/*
+#* Course: CS 100 Fall 2013
+#*
+#* First Name: Marco
+#* Last Name: Tobon
+#* Username: mtobo001
+#* email address: mtobo001@ucr.edu
+#*
+#*
+#* Assignment: “Homework #2”
+#*
+#* I hereby certify that the contents of this file represent
+#* my own original individual work. Nowhere herein is there
+#* code from any outside resources such as another individual,
+#* a website, or publishings unless specifically designated as
+#* permissible by the instructor or TA.
+#*/
+
+#Variables
+SOURCES = Coins.cc main.cc betterMain.cc bestMain.cc
+OBJECTS = Coins.o main.o
+B_OBJECTS = Coins.o  betterMain.o
+BST_OBJECTS = Coins.o bestMain.o
+COMPILE = g++
+
+#Targets
+default: all
+
+#ALL 3 PROGRAMS =======================================
+all: my_ls main betterMain bestMain 
+
+#MY_LS ===============================================
+my_ls: my_ls.cc
+	$(COMPILE) -ggdb -o $@ $^
+
+#NORMAL MAIN =========================================
+main: $(OBJECTS)
+	$(COMPILE) -ggdb -o $@ $^
+
+#BETTER MAIN ========================================	
+betterMain: $(B_OBJECTS)
+	$(COMPILE) -ggdb -o $@ $^
+
+#BEST MAIN =========================================
+bestMain: $(BST_OBJECTS)
+	$(COMPILE) -ggdb -o $@ $^
+
+#COINS =========================================
+Coins.o: Coins.h Coins.cc
+	$(COMPILE) -ggdb -c -o $@ Coins.cc
+
+clean:
+	rm -rf *~ *.o bestMain betterMain main my_ls
+
+
+~/cs100/hw/hw2
+mtobo001@alpha-5 $ [H[2J~/cs100/hw/hw2
+mtobo001@alpha-5 $ exit
+
+Script done on Thu 17 Oct 2013 10:15:10 AM PDT

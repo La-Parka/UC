@@ -1,0 +1,35 @@
+/*
+* Course: CS 100 Fall 2013
+*
+* First Name: Marco
+* Last Name: Tobon
+* Username: mtobo001
+* email address: mtobo001@ucr.edu
+*
+*
+* Assignment: “Homework #3”
+*
+* I hereby certify that the contents of this file represent
+* my own original individual work. Nowhere herein is there
+* code from any outside resources such as another individual,
+* a website, or publishings unless specifically designated as
+* permissible by the instructor or TA.
+*/
+Hit qa in command mode 
+Hit i, insert the for loop and all the components
+Go to the beggining of the first ; while in insert mode
+Hit Ctrl + O q to stop recording in insert mode
+
+Hit colon type 
+	:map /fo @a
+
+Command should hold: in register a: 
+ifor ( ;; )^M{^M>^M}<80>ku<80>ku<80>ku<80>ku<80>kd<80>kr<80>kr<80>kr<80>kr
+
+
+
+for ( ;; )
+{
+	>
+}:
+

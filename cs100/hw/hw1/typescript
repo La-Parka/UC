@@ -1,0 +1,368 @@
+Script started on Wed 09 Oct 2013 07:51:25 PM PDT
+~
+mtobo001@well $ cd cs100/hw/hw1/
+~/cs100/hw/hw1
+mtobo001@well $ g++ stack [K[K[K[K[K[K-o stack stack.cc
+~/cs100/hw/hw1
+mtobo001@well $ ./stack
+backwards
+
+Output: 
+sdrawkcab
+
+remove
+
+Output: 
+evomer
+
+~/cs100/hw/hw1
+mtobo001@well $ [H[2J~/cs100/hw/hw1
+mtobo001@well $ cat ppl.txt 
+LOLS
+FDEFE
+55656 656GTGER
+45646
+/
+Marina
+Gonzalez
+Winchells
+3232
+/
+Kevin
+Ha
+PUSHUPS
+E3232
+/
+Dragon
+Kelly
+Stone HAVEN
+3434
+/
+Rosy
+Laguna
+Winchells
+6767
+/
+Ana
+Maria
+46670 street
+5584975494754
+/
+Juan
+Port
+University av
+34343
+/
+Doom
+Serrano
+Village
+3232
+/
+Jay
+Sun
+A HIYSE
+4242
+/
+Marco
+Tobon
+173e3yeyw
+43434
+//
+~/cs100/hw/hw1
+mtobo001@well $ g++ -o rolodex rolodex.cc
+~/cs100/hw/hw1
+mtobo001@well $ ./rolodex
+	===========  Welcome to the rodolex menu: =========== 
+	 Please choose from one of the following options
+	|		i - insert new address		|
+	|		f - find an address		|
+	|		d - delete an address		|
+	|		p - print all			|
+	|		l - load address		|
+	|		s - save adresses to file	|
+	|		q - quit program		|
+> f
+
+c
+No Files In Rolodex
+
+	===========  Welcome to the rodolex menu: =========== 
+	 Please choose from one of the following options
+	|		i - insert new address		|
+	|		f - find an address		|
+	|		d - delete an address		|
+	|		p - print all			|
+	|		l - load address		|
+	|		s - save adresses to file	|
+	|		q - quit program		|
+> d
+
+c
+No Files In Rolodex
+
+	===========  Welcome to the rodolex menu: =========== 
+	 Please choose from one of the following options
+	|		i - insert new address		|
+	|		f - find an address		|
+	|		d - delete an address		|
+	|		p - print all			|
+	|		l - load address		|
+	|		s - save adresses to file	|
+	|		q - quit program		|
+> p
+
+c
+No Files To Print!
+
+	===========  Welcome to the rodolex menu: =========== 
+	 Please choose from one of the following options
+	|		i - insert new address		|
+	|		f - find an address		|
+	|		d - delete an address		|
+	|		p - print all			|
+	|		l - load address		|
+	|		s - save adresses to file	|
+	|		q - quit program		|
+> s
+
+c
+Canot Save An Empty Rolodex
+
+	===========  Welcome to the rodolex menu: =========== 
+	 Please choose from one of the following options
+	|		i - insert new address		|
+	|		f - find an address		|
+	|		d - delete an address		|
+	|		p - print all			|
+	|		l - load address		|
+	|		s - save adresses to file	|
+	|		q - quit program		|
+> i
+
+c
+Enter first name: Foo
+
+Enter last name: Bar
+
+Enter Address: Computer
+
+Enter Phone: 34324
+
+
+	===========  Welcome to the rodolex menu: =========== 
+	 Please choose from one of the following options
+	|		i - insert new address		|
+	|		f - find an address		|
+	|		d - delete an address		|
+	|		p - print all			|
+	|		l - load address		|
+	|		s - save adresses to file	|
+	|		q - quit program		|
+> p
+
+c
+==============================_______B________==================================
+First Name: Foo
+	Last Name: Bar
+	Address Computer
+	Phone:  34324
+
+
+
+	===========  Welcome to the rodolex menu: =========== 
+	 Please choose from one of the following options
+	|		i - insert new address		|
+	|		f - find an address		|
+	|		d - delete an address		|
+	|		p - print all			|
+	|		l - load address		|
+	|		s - save adresses to file	|
+	|		q - quit program		|
+> l
+
+Enter File To Load From (include extension): ppl.txt
+	===========  Welcome to the rodolex menu: =========== 
+	 Please choose from one of the following options
+	|		i - insert new address		|
+	|		f - find an address		|
+	|		d - delete an address		|
+	|		p - print all			|
+	|		l - load address		|
+	|		s - save adresses to file	|
+	|		q - quit program		|
+> p
+
+c
+==============================_______B________==================================
+First Name: Foo
+	Last Name: Bar
+	Address Computer
+	Phone:  34324
+
+==============================_______F________==================================
+First Name: LOLS
+	Last Name: FDEFE
+	Address 55656 656GTGER
+	Phone:  45646
+
+==============================_______G________==================================
+First Name: Marina
+	Last Name: Gonzalez
+	Address Winchells
+	Phone:  3232
+
+==============================_______H________==================================
+First Name: Kevin
+	Last Name: Ha
+	Address PUSHUPS
+	Phone:  E3232
+
+==============================_______K________==================================
+First Name: Dragon
+	Last Name: Kelly
+	Address Stone HAVEN
+	Phone:  3434
+
+==============================_______L________==================================
+First Name: Rosy
+	Last Name: Laguna
+	Address Winchells
+	Phone:  6767
+
+==============================_______M________==================================
+First Name: Ana
+	Last Name: Maria
+	Address 46670 street
+	Phone:  5584975494754
+
+==============================_______P________==================================
+First Name: Juan
+	Last Name: Port
+	Address University av
+	Phone:  34343
+
+==============================_______S________==================================
+First Name: Doom
+	Last Name: Serrano
+	Address Village
+	Phone:  3232
+
+First Name: Jay
+	Last Name: Sun
+	Address A HIYSE
+	Phone:  4242
+
+==============================_______T________==================================
+First Name: Marco
+	Last Name: Tobon
+	Address 173e3yeyw
+	Phone:  43434
+
+
+
+	===========  Welcome to the rodolex menu: =========== 
+	 Please choose from one of the following options
+	|		i - insert new address		|
+	|		f - find an address		|
+	|		d - delete an address		|
+	|		p - print all			|
+	|		l - load address		|
+	|		s - save adresses to file	|
+	|		q - quit program		|
+> d
+
+c
+Please enter last name: Tobon
+	===========  Welcome to the rodolex menu: =========== 
+	 Please choose from one of the following options
+	|		i - insert new address		|
+	|		f - find an address		|
+	|		d - delete an address		|
+	|		p - print all			|
+	|		l - load address		|
+	|		s - save adresses to file	|
+	|		q - quit program		|
+> p
+
+c
+==============================_______B________==================================
+First Name: Foo
+	Last Name: Bar
+	Address Computer
+	Phone:  34324
+
+==============================_______F________==================================
+First Name: LOLS
+	Last Name: FDEFE
+	Address 55656 656GTGER
+	Phone:  45646
+
+==============================_______G________==================================
+First Name: Marina
+	Last Name: Gonzalez
+	Address Winchells
+	Phone:  3232
+
+==============================_______H________==================================
+First Name: Kevin
+	Last Name: Ha
+	Address PUSHUPS
+	Phone:  E3232
+
+==============================_______K________==================================
+First Name: Dragon
+	Last Name: Kelly
+	Address Stone HAVEN
+	Phone:  3434
+
+==============================_______L________==================================
+First Name: Rosy
+	Last Name: Laguna
+	Address Winchells
+	Phone:  6767
+
+==============================_______M________==================================
+First Name: Ana
+	Last Name: Maria
+	Address 46670 street
+	Phone:  5584975494754
+
+==============================_______P________==================================
+First Name: Juan
+	Last Name: Port
+	Address University av
+	Phone:  34343
+
+==============================_______S________==================================
+First Name: Doom
+	Last Name: Serrano
+	Address Village
+	Phone:  3232
+
+First Name: Jay
+	Last Name: Sun
+	Address A HIYSE
+	Phone:  4242
+
+
+
+	===========  Welcome to the rodolex menu: =========== 
+	 Please choose from one of the following options
+	|		i - insert new address		|
+	|		f - find an address		|
+	|		d - delete an address		|
+	|		p - print all			|
+	|		l - load address		|
+	|		s - save adresses to file	|
+	|		q - quit program		|
+> q
+
+Some changes were made do you want to save them? (y or n)? : y
+
+c
+Save To File: (EXTENSION REQUIRED) ppl.txt
+
+~/cs100/hw/hw1
+mtobo001@well $ exit
+
+Script done on Wed 09 Oct 2013 07:54:42 PM PDT

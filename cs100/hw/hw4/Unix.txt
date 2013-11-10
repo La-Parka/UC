@@ -1,0 +1,30 @@
+#/*
+#* Course: CS 100 Fall 2013
+#*
+#* First Name: Marco
+#* Last Name: Tobon
+#* Username: mtobo001
+#* email address: mtobo001@ucr.edu
+#*
+#*
+#* Assignment: “Homework #4”
+#*
+#* I hereby certify that the contents of this file represent
+#* my own original individual work. Nowhere herein is there
+#* code from any outside resources such as another individual,
+#* a website, or publishings unless specifically designated as
+#* permissible by the instructor or TA.
+#*/
+
+i. grep -En [0-9] *.cpp 
+
+ii. grep - En \<\< *.h *.cpp
+
+iii. sed -i '/^$/d' foo.cpp
+
+iv. find ~/ -path ~/.trash/ -prune -o -name '*.o' -type f -exec mv {} ~/.trash/ \; -o -path ~/.trash/ -prune -o -name '*.out' -type f -exec mv {} ~/.trash/ \;
+
+
+v. find ~/ -name 'bin' -o -name 'bin*' -o -name '*bin'
+
+vi. find ~/ -size 20

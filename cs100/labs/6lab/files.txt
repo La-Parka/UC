@@ -1,0 +1,3 @@
+hello.txt
+trash.txt
+welcome.txt
